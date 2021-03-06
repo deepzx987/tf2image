@@ -4,6 +4,7 @@
 # Remove py3 for python 2 image
 # FROM tensorflow/tensorflow:latest-gpu-py3
 
+# New TF2.4
 FROM tensorflow/tensorflow:2.4.1-gpu-jupyter
 
 # Identify the maintainer of an image
