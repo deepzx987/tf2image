@@ -15,6 +15,7 @@ LABEL description="Tensorflow 2.4 + some other libraries"
 # Update the image to the latest packages
 # RUN apt-get update && apt-get upgrade -y
 RUN apt-get update
+RUN apt-get install ffmpeg libsm6 libxext6  -y
 
 #
 RUN apt-get install -y wget vim htop fish datamash libsm6 libxext6 libxrender1
